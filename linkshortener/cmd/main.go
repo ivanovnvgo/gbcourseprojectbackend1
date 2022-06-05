@@ -1,7 +1,11 @@
 package main
 
-import "linkshortener/internal"
+import (
+	"fmt"
+	"linkshortener/internal"
+)
 
 func main() {
-	internal.CourseProject()
+	firstAction := internal.CourseProject()
+	fmt.Println(firstAction)
 }

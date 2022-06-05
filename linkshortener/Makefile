@@ -17,10 +17,10 @@ clean:
 # rm ${BINARY_NAME}-windows
 
 test:
-	go test internal/findfiles/
+	#go test internal/findfiles/
 
 check:
-	go test internal/findfiles/
+	#go test internal/findfiles/
 
 #test_coverage:
 # go test ./... -coverprofile=coverage.out
